@@ -1,0 +1,117 @@
+[Root]
+Most Recent Package=IAAH Installer
+
+
+[Package|IAAH Installer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\Package
+
+[Package|IAAH Installer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IAAH Installer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IAAH Installer|Files Found]
+
+[Package|IAAH Installer|Files Released]
+
+[Package|IAAH Installer|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+C:\Program Files\Microsoft Office\OFFICE11\MSWORD.OLB=
+
+[Package|IAAH Installer|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|IAAH Installer|Files Added]
+c:\documents and settings\roy\my documents\vb project\synon erp\db\db_main.mdb=
+c:\documents and settings\roy\my documents\vb project\synon erp\db\payroll.dot=
+
+[Package|IAAH Installer|Files Removed]
+c:\documents and settings\roy\my documents\vb project\synon erp\db\db_main.mdb=
+
+[Package|IAAH Installer|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\DB\db_main.mdb=No
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\DB\payroll.dot=Yes
+C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\IAAH.exe=Yes
+
+[Package|IAAH Installer|Configure Registry Files]
+Applicable=No
+
+[Package|IAAH Installer|Configure Remote Servers]
+Applicable=No
+
+[Package|IAAH Installer|Install Locations]
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\IAAH.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\DB\db_main.mdb=$(AppPath)\DB\
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\DB\payroll.dot=$(AppPath)\DB\
+C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\IAAH.exe=$(AppPath)
+C:\Program Files\Microsoft Office\OFFICE11\MSWORD.OLB=$(WinSysPath)
+
+[Package|IAAH Installer|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\IAAH.exe=No
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\DB\db_main.mdb=No
+C:\Documents and Settings\Roy\My Documents\VB Project\Synon ERP\DB\payroll.dot=No
+C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\IAAH.exe=No
+
+[Package|IAAH Installer|Distribution]
+Type=single
+Size=
+Title=IAAH System
+
+[Package|IAAH Installer|Package]
+PackageFolder=C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\Package
+ProjectFolder=C:\Documents and Settings\Roy\My Documents\VB Project\IAAH
+ServerSideCab=
+File1=C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\Package\setup.exe
+File2=C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\Package\Setup.Lst
+File3=C:\Documents and Settings\Roy\My Documents\VB Project\IAAH\Package\IAAH.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|IAAH Installer|IconGroups]
+Group0=IAAH System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|IAAH Installer|IAAH System]
+Icon1=IAAH.exe
+Title1=IAAH System
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ST6UNST.EXE
+Title2=Uninstall IAAH System
+StartIn2=$(AppPath)
+Key2=Icon3
